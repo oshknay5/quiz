@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блиц-опрос</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div  class="heading">
+<h1>Блиц-опрос</h1>
+</div>
+
+ <form >
+<div  class="question">
+<label>Кто написал «Золотой ключик, или Приключения Буратино»?</label>
+<br>
+<div class="answer">
+<div class="block">
+<span class="sp1"><input type="radio" name="question1">Николай Носов</span>
+<span class="sp1"><input type="radio" name="question1">Жюль Верн</span>
+</div>
+<div class="block two">
+ <span class="sp1"><input type="radio" name="question1" id="answer1">Толстой А.Н.</span>
+<span class="sp1"><input type="radio" name="question1">Волков А.</span>
+</div>
+</div>
+</div>
+
+<div  class="question">
+    <label>Кто автор "Незнайка в Солнечном городе"?</label>
+    <br>
+<div class="answer">
+ <div class="block">
+    <span class="sp2"> <input type="radio" name="question2">Бажов П.П.</span>
+    <span class="sp2"> <input type="radio" name="question2"id="answer2">Николай Носов</span>
+</div>
+    <div class="block two">
+    <span class="sp2"><input type="radio" name="question2">Чуковский К.И.</span>
+    <span class="sp2"><input type="radio" name="question2">Астрид Линдгрен</span>
+    </div>
+</div>
+</div>
+
+ <div  class="question">
+<label>Кто написал "Сказка о царе Салтане "?</label>
+<br>
+<div class="answer">
+<div class="block">
+
+<span class="sp3"><input type="radio" name="question3">Паустовский</span>
+<span class="sp3"><input type="radio" name="question3">Шварц Е.Л.</span>
+</div>
+<div class="block two">
+<span class="sp3"><input type="radio" name="question3">Успенский Э.Н.</span>
+<span class="sp3"><input type="radio" name="question3" id="answer3">Пушкин А.С.</span>
+</div>
+</div>
+</div>
+
+<div  class="question">
+    <label> Кто написал «Малыш и Карлсон, который живёт на крыше»?</label>
+   
+<br>
+ <div class="answer">
+ <div class="block">
+    <span class="sp4"><input type="radio" name="question4" id="answer4">Астрид Линдгрен</span>
+    <span class="sp4"> <input type="radio" name="question4">Успенский Э.Н.</span>
+</div>
+<div class="block two">
+    <span class="sp4"> <input type="radio" name="question4">Толстой Л.Н.</span>
+    <span class="sp4"> <input type="radio" name="question4">Шварц Е.Л.</span>
+    </div>
+</div>
+</div>
+ <div  class="question">
+        <label>Кто автор "Айболит"?</label>
+        <br>
+        <div class="answer">
+        <div class="block">
+     <span class="sp5"> <input type="radio" name="question5">Крылов И.А.</span>
+     <span class="sp5"> <input type="radio" name="question5">Пушкин А.С.</span>
+    </div>
+    <div class="block two">
+    <span class="sp5"> <input type="radio" name="question5" id="answer5">Корней Чуковский</span>
+    <span class="sp5"> <input type="radio" name="question5">Пришвин М.М.</span>
+    </div>
+    </div>
+</div>
+
+<div  class="question">
+    <label>Кто написал "Денискины рассказы"?</label>
+    <br>
+    <div class="answer">
+    <div class="block ">
+    <span class="sp6">  <input type="radio" name="question6">Бианки В.В.</span>
+    <span class="sp6">  <input type="radio" name="question6" id="answer6">Виктор Драгунский</span>
+</div>
+<div class="block two">
+    <span class="sp6">  <input type="radio" name="question6">Пермяк Е.А.</span>
+    <span class="sp6">  <input type="radio" name="question6">Пушкин А.С.</span>
+</div>
+</div>
+</div>
+<button type="submit" id="btn">Отправить ответы</button>
+
+<p  id="show"></p>
+</form>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
